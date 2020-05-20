@@ -1,5 +1,11 @@
 package com.github.onacit.effectivejava.chapter5.iterm28;
 
-class CovariancyTest {
+import org.junit.jupiter.api.Test;
 
+class CovarianceTest {
+
+    @Test
+    void test() {
+        Animal[] animals = new Mammal[0];
+    }
 }
