@@ -6,6 +6,7 @@ class CovarianceTest {
 
     @Test
     void test() {
+        Animal animal = new Mammal();
         Animal[] animals = new Mammal[0];
     }
 }
